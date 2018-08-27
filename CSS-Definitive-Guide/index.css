@@ -1,0 +1,12 @@
+/*  <!-- 多类选择器 --> */
+.warning{
+    color: red;
+    font-size: 30px;
+}
+.title {
+    font-style: italic
+}
+.warning.title{
+    color: aqua
+}
+
