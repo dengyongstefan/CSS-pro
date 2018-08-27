@@ -1,5 +1,5 @@
 /*  <!-- 多类选择器 --> */
-.warning{
+/* .warning{
     color: red;
     font-size: 30px;
 }
@@ -9,4 +9,17 @@
 .warning.title{
     color: aqua
 }
+.first{
+    background-color: #eee;
+} */
+
+/* 相邻选择器和兄弟选择器  */
+/* p+span{
+    color: red;
+}
+
+p~span{
+     color: aqua;
+} */
+
 
