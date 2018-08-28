@@ -22,4 +22,32 @@ p~span{
      color: aqua;
 } */
 
+/* < !-- first-child --> */
+/* p:first-child{
+    color: aquamarine
+} */
 
+/* < !-- lang --> */
+/* p:lang(en){
+    color: red;
+}
+
+p:lang(zh-cmn-Hans) {
+    color: blue;
+} */
+
+/*  < !-- E:not(s) --> */
+/* .demo li:not(:last-child){
+    color: red;
+}
+ */
+
+/* < !-- last-child --> */
+p:last-child{
+    color: red;
+}
+
+/* < !-- only-child --> */
+li:only-child{
+    color: blue
+}
