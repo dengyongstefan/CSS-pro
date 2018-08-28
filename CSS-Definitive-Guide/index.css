@@ -43,11 +43,28 @@ p:lang(zh-cmn-Hans) {
  */
 
 /* < !-- last-child --> */
-p:last-child{
+/* p:last-child{
     color: red;
-}
+} */
 
 /* < !-- only-child --> */
-li:only-child{
+/* li:only-child{
     color: blue
 }
+ */
+
+ /* < !-- first-letter --> */
+/*  p::first-letter{
+     float:left;
+     font-size:40px;
+     font-weight:bold;
+     line-height:1;
+ } */
+
+ p::before {
+     position: absolute;
+     background: #fff;
+     color: #000;
+     content: "如果你的能看到这段文字，说明你的浏览器支持E:before和E::before";
+     font-size: 14px;
+ }
