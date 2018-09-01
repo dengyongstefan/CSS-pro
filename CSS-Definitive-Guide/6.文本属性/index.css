@@ -1,0 +1,42 @@
+/* text-indent */
+p{
+    text-indent: 100px hanging;
+    width: 700px;
+    line-height: 1;
+
+}
+
+/* white-space */
+.test p {
+    width: 200px;
+    border: 1px solid #000;
+}
+
+.normal p {
+    word-wrap: normal;
+}
+
+.pre p {
+    white-space: pre;
+}
+
+.pre-wrap p {
+    white-space: pre-wrap;
+}
+
+.pre-line p {
+    white-space: pre-line;
+}
+
+.nowrap p {
+    white-space: nowrap;
+}
+
+.textalignlast{
+    width:300px;
+    margin-top:10px;
+    background:#aaa;
+    text-align:justify;
+    -moz-text-align-last:center;
+    text-align-last:center
+}
