@@ -1,0 +1,21 @@
+/* .wrap{
+    width: 600px;
+    height: 600px;
+}
+.content{
+     margin-right: 300px;
+     margin-left: 300px;
+     width: 400px;
+     height: 600px;
+} */
+
+ .wrap{
+    width: 600px;
+    height: 600px;
+}
+.content{
+     margin-top: auto;
+     margin-bottom: auto;
+     width: 600px;
+     height: 400px;
+} 
