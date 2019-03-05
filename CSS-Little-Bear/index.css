@@ -304,3 +304,12 @@ body {
   margin: -20px auto;
   border-radius: 50%/50%;
 }
+
+.test{
+  background: #a57662;
+  height: 300px;
+  width: 400px;
+  position: relative;
+  transform: translate(-50%,-50%);
+  border-radius: 50%/ 50%;
+}
